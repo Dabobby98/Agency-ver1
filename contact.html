@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Nexon - Digital Marketing Agency</title>
+    
+    <!-- CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./image/favicon.ico">
+</head>
+<body>
+    
+    <!-- Section Header -->
+    <header>
+        <!-- Section Navbar -->
+        <div id="header"></div>
+    </header>
+
+    <!-- Section Content Edit -->
+    <aside>
+        <div id="edit-sidebar"></div>
+    </aside>
+
+    <!-- Section Search -->
+    <aside>
+        <div id="search-form-container"></div>
+    </aside>
+
+    <!-- Section Sidebar -->
+    <aside>
+        <div id="sidebar"></div>
+    </aside>
+
+    <!-- Section Main Content -->
+    <main>
+        <!-- Section Banner -->
+        <div class="section-banner">
+            <div class="banner-layout-wrapper">
+                <div class="banner-layout">
+                    <div class="d-flex flex-column text-center align-items-center gspace-2">
+                        <h2 class="title-heading animate-box animated animate__animated" data-animate="animate__fadeInRight">Contact Us</h2>
+                        <nav class="breadcrumb">
+                            <a href="./index.html" class="gspace-2">Home</a>
+                            <span class="separator-link">/</span>
+                            <p class="current-page">Contact Us</p>
+                        </nav>    
+                    </div>
+                    <div class="spacer"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Section Contact -->
+        <div class="section">
+            <div class="hero-container">
+                <div class="row row-cols-xl-2 row-cols-1 g-5">
+                    <div class="col col-xl-5">
+                        <div class="contact-title-wrapper">
+                            <div class="card contact-title">
+                                <div class="sub-heading">
+                                    <i class="fa-regular fa-circle-dot"></i>
+                                    <span>Reach out to us</span>
+                                </div>
+                                <h2 class="title-heading">Get in Touch</h2>
+                                <p>Reach out to us for tailored digital solutions that drive results sollicitudin nec.</p>
+                                <div class="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">
+                                    <div>
+                                        <div class="icon-wrapper">
+                                            <div class="icon-box">
+                                                <i class="fa-solid fa-phone-volume accent-color"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-grid">
+                                        <span>Phone Number</span>
+                                        <h5>+84 395042733</h5>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">
+                                    <div>
+                                        <div class="icon-wrapper">
+                                            <div class="icon-box">
+                                                <i class="fa-solid fa-envelope accent-color"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-grid">
+                                        <span>Email Address</span>
+                                        <h5>lehuuphuc.ht2016@gmail.com</h5>
+                                    </div>
+                                </div>
+                                <div class="d-flex flex-column flex-md-row align-items-center text-md-start text-center gspace-2">
+                                    <div>
+                                        <div class="icon-wrapper">
+                                            <div class="icon-box">
+                                                <i class="fa-solid fa-location-dot accent-color"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-grid">
+                                        <span>Office Address</span>
+                                        <h5>No. 297, Hoang Mai Street, Hoang Van Thu Ward, Hoang Mai District, Hanoi, Vietnam</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-xl-7">
+                        <div id="success-message" class="alert success hidden">
+                            <span class="check-icon"><i class="fa-solid fa-2xl fa-check"></i></span>
+                            <p>Thank you! Form submitted successfully.</p>
+                        </div>
+                        
+                        <div id="error-message" class="alert error hidden">
+                            <span class="cross-icon"><i class="fa-solid fa-2xl fa-xmark"></i></span>
+                            <p>Oops! Form submission failed. Please try again.</p>
+                        </div>
+                        <div class="form-layout-wrapper">
+                            <div class="card form-layout">
+                                <h3 class="title-heading">Let's Talk About Your Next Project</h3>
+                                <form action="./php/form_process.php" method="post" id="contactForm" class="form">
+                                    <div class="row row-cols-md-2 row-cols-1 g-3">
+                                        <div class="col">
+                                            <input type="text" name="first-name" id="first-name" placeholder="First Name">
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" name="last-name" id="last-name" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                    <div class="row row-cols-md-2 row-cols-1 g-3">
+                                        <div class="col">
+                                            <input type="email" name="email" id="email" placeholder="Email Address" required>
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" name="subject" id="subject" placeholder="Subject">
+                                        </div>
+                                    </div>
+                                    <textarea name="message" id="message" rows="5" placeholder="Message"></textarea>
+                                    <div class="form-button-container">
+                                        <button type="submit" class="btn btn-accent">
+                                            <span class="btn-title">
+                                                <span>Send a Message</span>
+                                            </span>
+                                            <span class="icon-circle">
+                                              <i class="fa-solid fa-arrow-right"></i>
+                                            </span>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section Maps -->
+        <div class="section pt-0">
+            <div class="hero-container">
+                <iframe loading="lazy" class="maps overflow-hidden"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.105279494522!2d105.85405797184471!3d20.98841654642259!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ad0021a8932d%3A0xa4ee8cae304a3421!2sChung%20C%C6%B0%20Feliz%20Homes%20-%20T%C3%B2a%20Fantasy!5e0!3m2!1svi!2s!4v1758045155997!5m2!1svi!2s"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"
+                    title="Chung Cư Feliz Homes - Tòa Fantasy" aria-label="Chung Cư Feliz Homes - Tòa Fantasy">
+                </iframe>
+            </div>
+        </div>
+    </main>
+
+    <!-- Section Footer -->
+    <footer>
+        <div id="footer"></div>
+    </footer>
+
+    <script src="js/vendor/jquery.min.js"></script>
+    <script src="js/vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/vendor/swiper-bundle.min.js"></script>
+    <script src="js/language.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/swiper-script.js"></script>
+    <script src="js/submit-form.js"></script>
+    <script src="js/video_embedded.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+    "name": "nexon/website",
+    "description": "Nexon Digital Marketing Agency Website",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.10"
+    }
+}
